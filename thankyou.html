@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Fashion Fiesta</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f7f7f7;
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Thank You Page Section */
+        .thank-you-section {
+            max-width: 900px;
+            margin: 2rem auto;
+            background-color: white;
+            padding: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .thank-you-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .order-summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2rem;
+        }
+
+        .order-summary-table th, .order-summary-table td {
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .order-summary-table th {
+            background-color: #f2f2f2;
+        }
+
+        .order-summary-table td img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .home-button {
+            padding: 1rem 2rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 2rem;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .home-button:hover {
+            background-color: #f39c12;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo"><a href="home.html">Fashion Fiesta</a></div>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </nav>
+
+    <!-- Thank You Page Section -->
+    <div class="thank-you-section">
+        <h2>Thank You for Your Order!</h2>
+        <p>Your order has been successfully placed. We will process it and notify you when it's on the way.</p>
+
+        <!-- Order Summary Table -->
+        <table class="order-summary-table">
+            <thead>
+                <tr>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://via.placeholder.com/100" alt="Product Image"></td>
+                    <td>Example Product</td>
+                    <td>1</td>
+                    <td>$49.99</td>
+                    <td>$49.99</td>
+                </tr>
+                <!-- Add more product rows if needed -->
+            </tbody>
+        </table>
+
+        <div class="order-summary">
+            <h3>Total: $49.99</h3>
+        </div>
+
+        <!-- Home Button -->
+        <a href="home.html" class="home-button">Back to Home</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fashion Fiesta. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

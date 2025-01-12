@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop - Fashion Fiesta</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f7f7f7;
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Shop Section */
+        .shop-header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #fff;
+            margin-bottom: 2rem;
+        }
+
+        .shop-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .shop-header p {
+            color: #777;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-card .product-info {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .product-card h3 {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+
+        .product-card p {
+            color: #777;
+            margin: 0.5rem 0;
+        }
+
+        .product-card button {
+            background-color: #f39c12;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 0.5rem;
+            transition: background-color 0.3s;
+        }
+
+        .product-card button:hover {
+            background-color: #d35400;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo"><a href="home.html">Fashion Fiesta</a></div>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about u.html">About</a>
+            <a href="contact us.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </nav>
+
+    <!-- Shop Header -->
+    <div class="shop-header">
+        <h1>Shop Our Collection</h1>
+        <p>Find your perfect outfit from our wide range of products.</p>
+    </div>
+
+    <!-- Products Section -->
+    <div class="products">
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 1">
+            <div class="product-info">
+                <h3>Product Name 1</h3>
+                <p>$49.99</p>
+                <a href="details p1.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 2">
+            <div class="product-info">
+                <h3>Product Name 2</h3>
+                <p>$59.99</p>
+                <a href="details p2.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 3">
+            <div class="product-info">
+                <h3>Product Name 3</h3>
+                <p>$39.99</p>
+                <a href="details p3.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 4">
+            <div class="product-info">
+                <h3>Product Name 4</h3>
+                <p>$69.99</p>
+                <a href="details p4.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 5">
+            <div class="product-info">
+                <h3>Product Name 5</h3>
+                <p>$69.99</p>
+                <a href="details p5.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 6">
+            <div class="product-info">
+                <h3>Product Name 6</h3>
+                <p>$69.99</p>
+                <a href="details p6.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 7">
+            <div class="product-info">
+                <h3>Product Name 7</h3>
+                <p>$69.99</p>
+                <a href="details p7.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 8">
+            <div class="product-info">
+                <h3>Product Name 8</h3>
+                <p>$69.99</p>
+                <a href="details p8.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 9">
+            <div class="product-info">
+                <h3>Product Name 9</h3>
+                <p>$69.99</p>
+                <a href="details p9.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 10">
+            <div class="product-info">
+                <h3>Product Name 10</h3>
+                <p>$69.99</p>
+                <a href="details p10.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 11">
+            <div class="product-info">
+                <h3>Product Name 11</h3>
+                <p>$69.99</p>
+                <a href="details p11.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 12">
+            <div class="product-info">
+                <h3>Product Name 12</h3>
+                <p>$69.99</p>
+                <a href="details p12.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 13">
+            <div class="product-info">
+                <h3>Product Name 13</h3>
+                <p>$69.99</p>
+                <a href="details p13.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 14">
+            <div class="product-info">
+                <h3>Product Name 14</h3>
+                <p>$69.99</p>
+                <a href="details p14.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 15">
+            <div class="product-info">
+                <h3>Product Name 15</h3>
+                <p>$69.99</p>
+                <a href="details p15.html"><button>Show more</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image-300x200.jpg" alt="Product 16">
+            <div class="product-info">
+                <h3>Product Name 16</h3>
+                <p>$69.99</p>
+                <a href="details p16.html"><button>Show more</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fashion Fiesta. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
